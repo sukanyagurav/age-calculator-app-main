@@ -119,17 +119,20 @@ a{
 }
 .input-field.show .error{
     display:block;
-    color:red;
+    color:var(--light-red);
     font-family:PoppinsItalic;
     font-size:0.8rem;
     font-weight:100;
 } 
 .input-field.show input{
-    border-color:red;
+    border-color:var(--light-red);
 } 
 .input-field.show label{
-    color:red;
+    color:var(--light-red);
 } 
+footer a{
+    color:var( --purple);
+}
 @media (min-width:700px){
     .btn{
         right:0;
