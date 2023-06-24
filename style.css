@@ -102,14 +102,13 @@ a{
     padding:2rem 0.5rem 0;
     border-top:0.1rem solid var(--light-gray);
     position:relative;
-
 }
 .result-container div{
     display:flex;
     align-items:center;
     gap:0.3rem;
     font-family:PoppinsExtraBoldItalic;
-    font-size:3.5rem;
+    font-size:3.3rem;
 }
 .result{
     color:var(--purple);
